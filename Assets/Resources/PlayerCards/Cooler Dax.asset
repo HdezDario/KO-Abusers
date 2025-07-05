@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f357d1b4ff52d5e4a9c79acea148f319, type: 3}
+  m_Name: Cooler Dax
+  m_EditorClassIdentifier: 
+  playerName: Cooler Dax
+  picture: {fileID: 21300000, guid: 6d5b06e20cbc6d24d83807d8c444db50, type: 3}
+  rank: 5
+  role: 0
+  roster: 030000000b00000006000000
+  health: 18
+  power: 2
+  speed: 6
+  strikePower: 0
+  actionMetter: 10

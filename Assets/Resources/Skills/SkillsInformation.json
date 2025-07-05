@@ -1,0 +1,459 @@
+{
+    "evade":{
+        "name": "Evade",
+        "explanation": "· Evades all incomming damage"
+    },
+
+    "moveLeft":{
+        "name": "Move Left",
+        "explanation": "· Moves to the left"
+    },
+
+    "moveRight":{
+        "name": "Move Right",
+        "explanation": "· Moves to the right"
+    },
+
+    "characterInfo":[
+        {
+            "name": "Hamster",
+            "color":{ "r":231, "g":150, "b":59, "a":255},
+            "primary":{
+                "name": "Rollout",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Somerassault",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>"
+            },
+            "ultimate":{
+                "name": "Tofu Fortress",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· Pushes enemies away"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+        
+        {
+            "name": "Sniper",
+            "color":{ "r":52, "g":133, "b":238, "a":255},
+            "primary":{
+                "name": "Piercing Shot",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Rose Warp",
+                "explanation": "· Moves to <color=#FFD700>Core</color> area\n· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>"
+            },
+            "ultimate":{
+                "name": "Crystal Thorns",
+                "explanation": "· <color=red>{0}</color> Damage to All enemies\n· Knocks the core forward <color=green>{1}</color> points"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Kicker",
+            "color":{ "r":232, "g":35, "b":53, "a":255},
+            "primary":{
+                "name": "Fiery Fist",
+                "explanation": "· <color=red>{0}</color> Damage\n· If Secondary used first, Pushes enemies away\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Flying Phoenix",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "Flame Flurry",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Ember",
+            "color":{ "r":210, "g":14, "b":186, "a":255},
+            "primary":{
+                "name": "Barrage",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Blazing Pace",
+                "explanation": "· Accelerates self <color=green>{0}</color>"
+            },
+            "ultimate":{
+                "name": "Giga Blast",
+                "explanation": "· <color=red>{0}</color> Damage to first area hit\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in area hit"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Witch",
+            "color":{ "r":225, "g":17, "b":129, "a":255},
+            "primary":{
+                "name": "Bewitching Beam",
+                "explanation": "· <color=red>{0}</color> Damage\n· Buffs allies <color=green>{1}</color> <color=red>Power</color>\n· Debuffs enemies <color=green>{2}</color> <color=red>Power</color>\n· Knocks the core forward <color=green>{3}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Flutter Fly",
+                "explanation": "· Accelerates allies & self <color=green>{0}</color>"
+            },
+            "ultimate":{
+                "name": "Magic Maelstrom",
+                "explanation": "· <color=red>{0}</color> Damage\n· Pushes enemies away\n· Knocks the core forward <color=green>{1}</color> points"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Boxer",
+            "color":{ "r":221, "g":11, "b":98, "a":255},
+            "primary":{
+                "name": "Bell Ringer",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Bull Rush",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "X Maximus!",
+                "explanation": "· Buffs self <color=green>{0}</color> <color=red>Power</color>\n· Becomes <color=#DD0B62>Huge</color>"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n· If <color=#DD0B62>Huge</color> <color=red>{1}</color> Damage"
+            }
+        },
+
+        {
+            "name": "Guardian",
+            "color":{ "r":176, "g":142, "b":77, "a":255},
+            "primary":{
+                "name": "Astral Projection",
+                "explanation": "· <color=red>{0}</color> Damage\n· Pushes enemies away\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Cosmic Expanse",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "Celestial Intervention",
+                "explanation": "· Revives All dead allies\n· Heals allies & self <color=green>{0}</color> health"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Shadow",
+            "color":{ "r":116, "g":81, "b":183, "a":255},
+            "primary":{
+                "name": "Unstable Anomaly",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Shadow Swap",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply self <color=blue>Evade</color>\n· Move to last <color=#7451B7>Shadow Swap</color> position\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "Banish",
+                "explanation": "· Apply <color=#7451B7>Banished</color>\n· <color=red>{0}</color> Damage"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Lizard",
+            "color":{ "r":94, "g":134, "b":186, "a":255},
+            "primary":{
+                "name": "Lock and Load",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Xeno Cloak",
+                "explanation": "· Apply self <color=blue>Evade</color>\n· Accelerates <color=green>{0}</color>\n· Next Action gets buffed"
+            },
+            "ultimate":{
+                "name": "Molten Bolt",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Rocket",
+            "color":{ "r":133, "g":186, "b":30, "a":255},
+            "primary":{
+                "name": "W.H.A.M.M.Y.",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "B.O.O.S.T.",
+                "explanation": "· Moves until hitting an enemy or the map wall\n· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "C.R.A.T.E.R.",
+                "explanation": "· <color=red>{0}</color> Damage to All enemies"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Slime",
+            "color":{ "r":77, "g":206, "b":178, "a":255},
+            "primary":{
+                "name": "Friend Fling",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Blob Bounce",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Apply self <color=blue>Evade</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area\n· Move forward"
+            },
+            "ultimate":{
+                "name": "Make it Rain",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Knocks the core forward <color=green>{2}</color> points"
+            },
+            "strike":{
+                "name": "Strike with Friends",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n<color=#4DCEB2>...but with friends :D</color>"
+            }
+        },
+
+        {
+            "name": "Shield",
+            "color":{ "r":217, "g":86, "b":40, "a":255},
+            "primary":{
+                "name": "Barrier Beam",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Breakthrough",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· Reduces next turn incomming damage by <color=green>{0}</color>"
+            },
+            "ultimate":{
+                "name": "Pathsplitter",
+                "explanation": "· <color=red>{0}</color> Damage to first area hit\n· Knocks the core forward <color=green>{1}</color> points if core is in area hit"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Magician",
+            "color":{ "r":210, "g":14, "b":186, "a":255},
+            "primary":{
+                "name": "Misdirection",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Triple Take",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· Increases next primary damage"
+            },
+            "ultimate":{
+                "name": "Big Finish",
+                "explanation": "· <color=red>{0}</color> Damage to enemies in <color=#FFD700>Core</color> area\n· Apply <color=blue>Stun</color> to enemies in <color=#FFD700>Core</color> area\n· Knocks the core backwards <color=red>{1}</color> points"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Cat",
+            "color":{ "r":244, "g":90, "b":140, "a":255},
+            "primary":{
+                "name": "Glitch.Pop",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Cyber Swipe",
+                "explanation": "· Moves to <color=#FFD700>Core</color> area\n· <color=red>{0}</color> Damage\n· Knocks the core <color=yellow>{1}</color> points depending on its and core position"
+            },
+            "ultimate":{
+                "name": "Firewall Sentry",
+                "explanation": "· <color=red>{0}</color> Damage to first area hit\n· Knocks the core forward <color=green>{1}</color> points"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Blade",
+            "color":{ "r":176, "g":33, "b":76, "a":255},
+            "primary":{
+                "name": "Slice and Dice",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· Grants <color=#B0214C>{2} Blade Charges</color>"
+            },
+            "secondary":{
+                "name": "Iai Rush",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core <color=green>{1}</color> points\n· Moves forward\n· <color=red>{0}</color> Damage\n· Knocks the core <color=green>{1}</color> points\n· Grants <color=#B0214C>{2} Blade Charges</color>"
+            },
+            "ultimate":{
+                "name": "Oni's Blade",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply self <color=blue>Evade</color>\n· Grants <color=#B0214C>{1} Blade Charges</color>"
+            },
+            "strike":{
+                "name": "Slashing Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n· Has <color=#B0214C>{1} Blade Charges</color>\n· If <color=#B0214C>10 Blade Charges</color> <color=red>{2}</color> Damage & Moves forward"
+            }
+        },
+
+        {
+            "name": "Drone",
+            "color":{ "r":113, "g":49, "b":73, "a":255},
+            "primary":{
+                "name": "Sentry Drone",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Proximity Drone",
+                "explanation": "· <color=red>{0}</color> Damage\n· Accelerates allies in your area & self <color=green>{1}</color>\n· Heals allies in your area & self <color=green>{2}</color> health\n· Knocks the core forward <color=green>{3}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "Lifeline",
+                "explanation": "· Moves to <color=#FFD700>Core</color> area\n· Apply self <color=blue>Evade</color>\n· Heals allies in your area & self <color=green>{0}</color> health\n· Returns to previous position at the end of the turn"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Hook",
+            "color":{ "r":59, "g":154, "b":62, "a":255},
+            "primary":{
+                "name": "Pendulum Swing",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Whiplash",
+                "explanation": "· <color=red>{0}</color> Damage\n· Accelerates self <color=green>{1}</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area"
+            },
+            "ultimate":{
+                "name": "Death Touch",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core backwards <color=red>{1}</color> points if core is in your area\n· Pulls enemies behind"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Umbrella",
+            "color":{ "r":217, "g":61, "b":98, "a":255},
+            "primary":{
+                "name": "Crooked Leverage / Top Spin",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· If <color=#DD7700>Open</color> pushes enemies away"
+            },
+            "secondary":{
+                "name": "The Slip / Carried Away",
+                "explanation": "· If <color=#D93D62>Closed</color> Move forward, if <color=#DD7700>Open</color> Move backwards\n· <color=red>{0}</color> Damage\n· If <color=#D93D62>Closed</color> knocks the core forward <color=green>{1}</color> points if core is in your area\n· If <color=#DD7700>Open</color> apply self <color=blue>Evade</color>"
+            },
+            "ultimate":{
+                "name": "Pop / Retract",
+                "explanation": "· Swap between <color=#D93D62>Closed</color> & <color=#DD7700>Open</color>\n· 0 is <color=#D93D62>Closed</color>\n· 1 is <color=#DD7700>Open</color>\n· Current Form is {0}"
+            },
+            "strike":{
+                "name": "Press the Point / Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n· <color=green>1</color> More if <color=#D93D62>Closed</color>"
+            }
+        },
+
+        {
+            "name": "Drummer",
+            "color":{ "r":114, "g":72, "b":149, "a":255},
+            "primary":{
+                "name": "Perfect Pitch",
+                "explanation": "· <color=red>{0}</color> Damage\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· Grants <color=#724895>{2} Beat</color>"
+            },
+            "secondary":{
+                "name": "Drum and Base",
+                "explanation": "· Buffs allies <color=green>{0}</color> <color=green>Speed</color>\n· Debuffs self <color=red>{1}</color> <color=green>Speed</color>\n· <color=red>{2}</color> Damage\n· Knocks the core forward <color=green>{3}</color> points if core is in your area\n· Grants <color=#724895>{4} Beat</color>"
+            },
+            "ultimate":{
+                "name": "Ensnare Drums",
+                "explanation": "· <color=red>{0}</color> Damage to first area hit\n· Apply <color=blue>{1} Slow</color>\n· Apply <color=blue>Stun</color>\n· Grants <color=#724895>{2} Beat</color>"
+            },
+            "strike":{
+                "name": "Rhythm Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n· Has <color=#724895>{1} Beat</color>\n If <color=#724895>8 Beat</color> <color=red>{2}</color> Damage"
+            }
+        },
+        
+        {
+            "name": "Guitar",
+            "color":{ "r":217, "g":86, "b":40, "a":255},
+            "primary":{
+                "name": "Power Chord",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area"
+            },
+            "secondary":{
+                "name": "Thunderstruck",
+                "explanation": "· At the end of the turn Moves to <color=#FFD700>Core</color> position\n· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>"
+            },
+            "ultimate":{
+                "name": "Super Nova",
+                "explanation": "· Prepares to deal <color=red>{0}</color> Damage at the start of next turn\n· Can't die until next turn, survives at <color=green>1</color> Stagger"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area"
+            }
+        },
+
+        {
+            "name": "Speedster",
+            "color":{ "r":178, "g":152, "b":220, "a":255},
+            "primary":{
+                "name": "Sonic Boom",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>{1} Slow</color>\n· Knocks the core forward <color=green>{2}</color> points if core is in your area\n· If <color=#B298DC>Flow State</color> grants {3} <color=green>Speed</color>"
+            },
+            "secondary":{
+                "name": "Flow State",
+                "explanation": "· Accelerates self <color=green>{0}</color>\n· Enters <color=#B298DC>Flow State</color>\n· Ends when dead"
+            },
+            "ultimate":{
+                "name": "Bass Drop",
+                "explanation": "· <color=red>{0}</color> Damage\n· Apply <color=blue>Stun</color>\n· Knocks the core forward <color=green>{1}</color> points if core is in your area\n· If <color=#B298DC>Flow State</color> grants {2} <color=green>Speed</color>"
+            },
+            "strike":{
+                "name": "Strike",
+                "explanation": "· Knocks the core forward <color=green>{0}</color> points if core is in your area\n· If <color=#B298DC>Flow State</color> grants {1} <color=green>Speed</color>"
+            }
+        }
+    ]   
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f357d1b4ff52d5e4a9c79acea148f319, type: 3}
+  m_Name: OrcaWoman
+  m_EditorClassIdentifier: 
+  playerName: 
+  picture: {fileID: 21300000, guid: 5f6948cb8e63b514bbef494e64de70ab, type: 3}
+  rank: 0
+  role: 2
+  roster: 090000000d00000002000000040000000c000000
+  health: 29
+  power: 9
+  speed: 10
+  strikePower: 2
+  actionMetter: 20

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f357d1b4ff52d5e4a9c79acea148f319, type: 3}
+  m_Name: Kevin270
+  m_EditorClassIdentifier: 
+  playerName: 
+  picture: {fileID: 21300000, guid: d593aa5ff79145545a3d49458f4b722a, type: 3}
+  rank: 2
+  role: 1
+  roster: 01000000030000001400000002000000
+  health: 25
+  power: 6
+  speed: 7
+  strikePower: 1
+  actionMetter: 15

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f357d1b4ff52d5e4a9c79acea148f319, type: 3}
+  m_Name: Vee
+  m_EditorClassIdentifier: 
+  playerName: 
+  picture: {fileID: 21300000, guid: fa27792f3157eef4f9b94c84def13047, type: 3}
+  rank: 3
+  role: 2
+  roster: 0e000000110000000300000012000000
+  health: 22
+  power: 8
+  speed: 6
+  strikePower: 1
+  actionMetter: 15
